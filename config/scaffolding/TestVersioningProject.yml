@@ -1,12 +1,12 @@
-configurationVariables:
-  jdbcfunc.SAPTxStore.failFastMode: 'false'
-  jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
+version: 1.4.9
 info:
   model: int-scaffold
 packages:
-- gitBranch: release/1.4.9
+- name: TestVersioningProject
   gitServerName: moaa
   gitUrl: https://github.com/Mohamed-Naufal-A-IBM
   gitUsername: Mohamed-Naufal-A-IBM
-  name: TestVersioningProject
-version: 1.4.9
+  gitBranch: release/1.4.9
+configurationVariables:
+  jdbcfunc.SAPTxStore.failFastMode: "false"
+  jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
