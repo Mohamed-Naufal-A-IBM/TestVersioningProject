@@ -4,9 +4,9 @@ configurationVariables:
 info:
   model: int-scaffold
 packages:
-- gitBranch: main
+- gitBranch: release/1.1.7
   gitServerName: moaa
   gitUrl: https://github.com/Mohamed-Naufal-A-IBM
   gitUsername: Mohamed-Naufal-A-IBM
   name: TestVersioningProject
-version: '1.0'
+version: 1.1.7
